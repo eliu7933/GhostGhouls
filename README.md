@@ -6,4 +6,4 @@ There are various files in the repository each playing its part in this analysis
 
 Methods that were used for data cleaning and feature engineering included stacking all of the predicitons that were created using different prediction modeling. These files are classification_submission_rf.csv, multilayerperceptron.csv, probs_gbm.csv, probs_svm.csv, and xgbTree_probs.csv. Pre-processing was also used to make these predictions independent of one another which could then be applied to a modeling method to draw new predictions.
 
-Methods that were used to generate predictions were random forest with 
+Methods that were used to generate predictions were random forest with cross validation and/or repeated cross validation.
